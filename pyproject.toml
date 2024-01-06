@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pytubebot"
+version = "0.1.0"
+description = "It's a telegram bot that lets you download ideo from YouTube."
+authors = ["MarkCesium <cesiummark01@gmail.com>"]
+license = "MIT license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^3.3.0"
+pytube = "^15.0.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
